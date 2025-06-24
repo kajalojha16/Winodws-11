@@ -89,6 +89,7 @@ else{
   battery .addEventListener("click", () =>{
     if(onBattery==true){
       battery.style.backgroundColor = "orange";
+      
       onBattery = false;
     }
     else{
@@ -111,7 +112,26 @@ else{
     }
     }
   )
+  
+  let batterybtn = document.querySelector(".batterybtn")
+  let batteryDisplay = document.querySelector(".batteryDisplay")
+  let onbattery = true;
+  batterybtn.addEventListener("click", ()=> {
+    if(onbattery == true){
+      batteryDisplay.style.scale = "1";
+      batteryDisplay.style.transition = "all 0.3s ease"
+      onbattery = false;
+    
+    }
+    else{
+      batteryDisplay.style.scale = "0";
+       batteryDisplay.style.transition = "all 0.3s ease"
+      onbattery = true;
+    }
+   
+  })
 
+ 
 
 
 
