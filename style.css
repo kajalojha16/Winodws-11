@@ -152,7 +152,7 @@ html,body{
     align-items: center;
 }
 .wifimore :hover{
-    color: grey;
+    background-color: grey;
 
 }
 .camera{
@@ -388,19 +388,51 @@ html,body{
     position: absolute;
     bottom: 25%;
 }
+.settingMenu{
+    width: 100%;
+    height: 91%;
+    background-color: rgba(0, 0, 0, 0.896);
+    scale: 0;
+}
+.settingClose{
+    width: 100%;
+    height: 5%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.settingClose h4{
+    color: white;
+    position: absolute;
+    left: 2%;
+}
+.settingMinimize{
+    color: white;
+    width: 3%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.615);
+
+}
 
 .setting{
-    width: 20%;
-    height: 92%;
-    background-color: rgba(0, 0, 0, 0.862);
+    width: 22%;
+    height: 86%;
+    /* background-color: red; */
     position: absolute;
-    bottom: 8%;
+    bottom: 9%;
     left: .5%;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     /* align-items: center; */
     padding: 10px 15px;
+    /* scale: 0; */
 
 }
 .settingTopBar{
@@ -447,7 +479,11 @@ html,body{
     /* background-color: red; */
     color: white;
 }
+.settingList ul :hover{
+    color: grey;
+} 
 .settingList ul li {
+   
     align-content: center;
     display: flex;
     /* justify-content:  center; */
@@ -455,6 +491,7 @@ html,body{
     align-items: center;
     gap: 10px;
     margin: 10px 0px;
+    cursor: pointer;
 }
 
 .settingList ul li img{

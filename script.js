@@ -131,6 +131,26 @@ else{
    
   })
 
+  let settingBtn = document.querySelector(".settingBtn")
+  let settingMenu = document.querySelector(".settingMenu")
+  let onSettingBtn=true;
+  settingBtn.addEventListener("click", ()=>{
+    if(onSettingBtn == true){
+      settingMenu.style.scale = "1";
+      settingMenu.style.transition = "all 0.3 ease"
+     
+      onSettingBtn = false;
+    }
+    else{
+      settingMenu.style.scale = "0";
+      settingMenu.style.transition = "all 0.3s ease"
+      
+      onSettingBtn = true;
+    }
+  })
+  
+    
+
  
 
 
