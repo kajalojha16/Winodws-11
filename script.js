@@ -137,7 +137,7 @@ else{
   settingBtn.addEventListener("click", ()=>{
     if(onSettingBtn == true){
       settingMenu.style.scale = "1";
-      settingMenu.style.transition = "all 0.3 ease"
+      settingMenu.style.transition = "all 0.3s ease"
      
       onSettingBtn = false;
     }
@@ -149,15 +149,47 @@ else{
     }
   })
   
-   var swiper = new Swiper(".mySwiper", {
-      pagination: {
-        el: ".swiper-pagination",
-        dynamicBullets: true,
-      },
-    });
-    
+ var swiper = new Swiper(".mySwiper", {
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true,
+  },
+  autoplay: {
+    delay: 3000, 
+    disableOnInteraction: false, 
+  },
+  loop: true 
+});
 
- 
+  let setdate = document.querySelector(".date");
+
+    
+  setInterval(()=>{
+
+    let date = new Date().toLocaleDateString("en-CA");
+    let time = new Date().toLocaleTimeString("en-GB");
+    let clutter = `<h5>${time}<br> ${date}</h5>`;
+    
+    setdate.innerHTML = clutter;
+  },1000)
+
+  let microsoftBtn = document.querySelector(".microsoftBtn")
+  let MicrosoftStore = document.querySelector(".MicrosoftStore")
+  let onMicrosoftBtn = true;
+  microsoftBtn.addEventListener("click", ()=>{
+    if(onMicrosoftBtn == true){
+      MicrosoftStore.style.scale = "1";
+      MicrosoftStore.style.transition = "all 0.7s ease-in"
+      onMicrosoftBtn = false;
+    }
+    else{
+      MicrosoftStore.style.scale = "0";
+      MicrosoftStore.style.transition = "all 0.3s ease-out"
+
+      onMicrosoftBtn = true;
+// isse kuch na hota js me mrxi hoti lga mt lga mekro cpp ki aadat hai isiliye lgata ok
+    }
+  })
 
 
 
