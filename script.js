@@ -191,7 +191,22 @@ else{
     }
   })
 
+let calculatorBtn = document.querySelector(".calculatorBtn")
+let calculator = document.querySelector(".calculator")
+let onCalculatorBtn = true;
+calculatorBtn.addEventListener("click", ()=>{
+  if(onCalculatorBtn==true){
+    calculator.style.scale = "1"
+    calculator.style.transition = "all 0.3s ease"
+    onCalculatorBtn = false;
+  }
+  else{
+    calculator.style.scale = "0"
+    calculator.style.transition = "all 0.3s ease"
+    onCalculatorBtn = true;
 
+  }
+})
 
 
 

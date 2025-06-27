@@ -664,3 +664,55 @@ html,body{
  .AppName-DownloadBtn h3{
     color: white;
  }
+
+ .calculator{
+    width: 25%;
+    height: 65%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    scale: 0;
+ }
+
+ .calculatorTopBar{
+  width: 92%;
+  height: 50px;
+  font-size: 24px;
+  text-align: right;
+  margin-bottom: 15px;
+  border: none;
+  background: #333;
+  color: #fff;
+  margin-top: 5%;
+  
+  border-radius: 8px;
+ }
+
+ .calculatorApp{
+    width: 85%;
+    height: 75%;
+    /* background-color: blue; */
+    /* margin: 5%; */
+    
+
+ }
+
+ .calculatorApp button{
+    width: 20%;
+    height: 18%;
+    /* background-color: brown; */
+    margin-left: 3%;
+    margin-top: 2%;
+    border: none;
+    border-radius: 5%;
+ }
+
+ .calculatorOperators{
+    background-color: rgb(255, 136, 0);
+ }
+ .calculatorDigit{
+    background-color: grey;
+ }
