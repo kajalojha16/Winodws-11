@@ -29,7 +29,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    z-index: 999999999999999999999999999999999;
 }
 
 .icons{
@@ -675,6 +675,8 @@ html,body{
     align-items: center;
     position: absolute;
     scale: 0;
+    top: 10%;
+    left: 20%;
  }
 
  .calculatorTopBar{
@@ -715,4 +717,27 @@ html,body{
  }
  .calculatorDigit{
     background-color: grey;
+ }
+
+
+
+ .Display{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    z-index: 9999999;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+ }
+ .app1{
+    height: 10%;
+    width: 10%;
+    /* background-color: red; */
+ }
+ .app1 img{
+    height: 60px;
+    object-fit: cover;
  }
