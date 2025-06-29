@@ -34,6 +34,7 @@ wifi.forEach((val)=>{
 let camera = document.querySelector(".camera");
 
 let openCameraBtn = document.getElementById("openCamera");
+let openCamcBtn = document.querySelector(".openCamcBtn");
 
 let yehaflag = true;
 
@@ -69,6 +70,48 @@ else{
     alert("Camera access allow karo");
   }
 })
+
+
+// chatgpt se kam likhwayay kr codejs mujhe aati jo usse likhwaugi?  get elemnt by id kese lgadiya ? js meri sari tune h
+// bs itna sa kaam tha
+openCamcBtn.addEventListener("click", async () => {
+
+// agar falg true hoga  tbhi hum display flex krenge 
+
+// ab humne ek condtion bnali open wali
+// ab flag ko false krdenge kuki agli conditon hume elase wali challani
+if(yehaflag==true){
+  camera.style.display = "flex";
+  yehaflag = false;
+
+    }
+
+else{
+   camera.style.display = "none";
+  yehaflag = true;
+
+}
+// smj aaya terkohn   confirm bta hn 100% hn kl bhi yehi kra tha na same hn bjake click krke dekh vhi h 
+
+
+
+  try {
+    // Camera access lene ki request
+    const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+
+    // Video tag me stream dikhana
+    cameraFeed.srcObject = stream;
+  } catch (error) {
+    console.error("Camera access denied:", error);
+    alert("Camera access allow karo");
+  }
+})
+
+
+
+
+
+
 
   let aeroplain = document.querySelector(".aeroplain")
    let onAeroplain = true;
@@ -223,6 +266,10 @@ openCalcBtn.addEventListener("click" , function(){
 
   }
 });
+
+
+
+
 
 
 

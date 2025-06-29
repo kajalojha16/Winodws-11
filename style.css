@@ -165,7 +165,7 @@ html,body{
     flex-direction: column;
     position: absolute;
     display: none;
-    z-index: 99;
+    z-index: 999999999999999999999999999999999999999999999999999999;
 }
 .cameraTopBar{
     height: 6%;
