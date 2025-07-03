@@ -682,7 +682,7 @@ html,body{
 
 }
 .Secondlastchild{
-    width: 99%;
+    width: 100%;
     height: 50%;
     background-color: rgb(30, 28, 28);
     font-size: 150%;
@@ -696,7 +696,7 @@ html,body{
 
 }
 .lastchild{
-    width: 99%;
+    width: 100%;
     height: 60%;
     background-color: rgb(30, 28, 28);
     display: flex;
@@ -811,6 +811,7 @@ html,body{
     background-color: rgb(0, 0, 0);
     position: absolute;
     display: flex;
+    z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
     scale: 0;
 }
 .microsoftStoreLeft{
@@ -1035,3 +1036,134 @@ html,body{
     height: 60px;
     object-fit: cover;
  }
+ .fileExplorer{
+    width: 100%;
+    height: 91%;
+    background-color: black;
+    position: absolute;
+    
+ }
+ .fileExplorerTopBar{
+    width: 100%;
+    height: 6%;
+    background-color: 1e1e1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    /* z-index: ; */
+}
+.minMaXcut{
+    height: 100%;
+    width: 10%;
+    display: flex;
+}
+.fileExplorerTopBarLeft{
+     color: white;
+    width: 35%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.615);
+
+}
+.fileExplorerSecondChild{
+    width: 100%;
+    height: 7%;
+    background-color: rgb(59, 46, 46);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 6%;
+    z-index: 99999999999999999999;
+
+}
+.fileExplorerSecondChildBackBtn{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+     color: white;
+    
+    /* background-color: rgb(0, 255, 34); */
+}
+.fileExplorerSecondChildLeft{
+    width: 2%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(0, 255, 34); */
+     color: white;
+}
+.fileExplorerSecondChildUpBtn{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(0, 64, 255); */
+    color: white;
+}
+.fileExplorerSecondChildRefreshBtn{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(60, 255, 0); */
+    color: white;
+}
+.FileExplorerSecondChildHomeBtn{
+    width: 50%;
+    height: 98%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ background-color: rgba(0, 0, 0, 0.784);
+    margin: 20px;
+   border: none;
+   border-radius: 5px;
+   gap: 10px;
+   padding-left: 5px;
+   color: white;
+}
+
+.fileExplorerSecondChildSearchBtn{
+    width: 30%;
+    height: 98%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.768);
+   margin: 20px;
+   border: none;
+   border-radius: 5px;
+   gap: 10px;
+   padding-left: 5px;
+   color: white;
+}
+.fileExplorerTopBarRht{
+    width: 20%;
+    height: 100%;
+    /* background-color: rgb(0, 255, 34); */
+}
+.fileExplorerLeftChild{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(8, 69, 184);
+   margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
