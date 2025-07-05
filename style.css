@@ -21,10 +21,11 @@ html,body{
 }
 
 .taskbar{
-    height: 8%;
+    height: 7%;
     width: 100%;
-    background-color: rgba(128, 128, 128, 0.479);
+    background-color: rgba(27, 25, 25, 0.555);
     position: absolute;
+    backdrop-filter: blur(10px);
     bottom: 0%;
     display: flex;
     justify-content: center;
@@ -59,10 +60,11 @@ html,body{
     right: 0%;
     /* background-color: brown; */
     height: 100%;
-    width: 15%;
+    width: 19%;
     display: flex;
     justify-content:center;
     align-items: center;
+   
     
 }
 .Ricon1 :hover{
@@ -90,7 +92,9 @@ html,body{
     width: 100%;
     color: white;
     /* background-color: rebeccapurple; */
-   margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .date{
@@ -1028,13 +1032,13 @@ html,body{
     position: absolute;
  }
  .app1{
-    height: 10%;
-    width: 10%;
+     height: 10%; 
+    /* width: 10%; */ */
     /* background-color: red; */
  }
  .app1 img{
-    height: 60px;
-    object-fit: cover;
+    height: 50px;
+    object-fit: contain;
  }
  .fileExplorer{
     width: 100%;
