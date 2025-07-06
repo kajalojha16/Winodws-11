@@ -1165,11 +1165,12 @@ html,body{
 }
 .fileExplorerLeftChild{
     width: 15%;
-    height: 94%;
-    background-color: blue;
+    height: 90%;
+    background-color: rgb(59, 59, 80);
    margin-top: 40px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     
 }
 .fileExplorerLeftChildQuickAccess{
@@ -1179,14 +1180,16 @@ html,body{
        z-index: 9999999999999999999999999999999999999999999999999999999999999999999;
 }
 .fileExplorerLeftChildQuickAccess h3{
-    color: rgb(22, 211, 224);
+    color: rgba(22, 210, 224, 0.667);
     padding: 10px 20px;
-    
+    display: flex;
+    justify-content: center;
     /* background-color: #e81e25; */
     margin-top: 25px;
     /* position: relative; */
 }
 .fileExplorerLeftChild ul{
+    
     list-style: none;
     color: white;
     padding: 0px 20px;
