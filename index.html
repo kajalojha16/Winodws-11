@@ -3,641 +3,628 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>window 11</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Windows-11</title>
     <link
-  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-   
-  </head>
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Unofficial_Windows_logo_variant_-_2002%E2%80%932012_%28Multicolored%29.svg/2321px-Unofficial_Windows_logo_variant_-_2002%E2%80%932012_%28Multicolored%29.svg.png"
+      type="image/x-icon"
+    />
+  </head> 
   <body>
-    <div class="camera">
-        <div class="cameraTopBar">
-            <div class="minimize">
-                <i class="fa-solid fa-minus"></i>
-            </div>
-             <div class="minimize">
-                <i class="fa-solid fa-expand"></i>
-             </div>
-              <div class="minimize">
-                <i class="fa-solid fa-xmark"></i>
-              </div>
-        </div>
-        <video id="cameraFeed" autoplay></video>
+    <div class="loaderAnimation">
+      <dotlottie-player
+        src="https://lottie.host/ca2a08c4-988a-4f97-985a-f532ce669a25/sSpsx4hKk3.lottie"
+        background="transparent"
+        speed="1"
+        style="width: 150px; height: 150px"
+        loop
+        autoplay
+      ></dotlottie-player>
+      <h2>Loading Please Wait...</h2>
+    </div>
+   <!-- eslint-disable-next-line -->
+    <video src="./assets/bmw-m4-liberty.3840x2160.mp4"  autoplay loop class="img"></video>
+    <div class="Login">
+      <video src="./assets/video.mp4" ></video>
     </div> 
-
-    <div class="Display">
-        <!-- <div class="app1">
-            <a href="https://web.whatsapp.com/" target="_blank">
-            <img src="whatsapp.png" alt="">
-            </a>
-        </div>
-        <div class="app1 openCalcBtn">
-            <img src="calculator.png" alt="">
-        </div>
-        <div class="app1 openCamcBtn">
-            <img src="camera1.png" alt="">
-        </div>
-        <div class="app1 openWalBtn">
-            <img src="wallpaper.png" alt="">
-        </div>
-
-    </div> -->
-
-    <div class="main">
-          <div class="fileExplorer">
-            
-            <div class="fileExplorerTopBar">
-                <div class="fileExplorerTopBarRht"></div>
-                <div class="minMaXcut">
-                <div class="fileExplorerTopBarLeft">
-                    <i class="fa-solid fa-minus"></i>
-                </div>
-
-                <div class="fileExplorerTopBarLeft">
-                    <i class="fa-solid fa-expand"></i>
-                </div>
-
-                <div class="fileExplorerTopBarLeft">
-                    <i class="fa-solid fa-xmark"></i>
-                </div>
-                </div>
-            </div>
-
-            <div class="fileExplorerSecondChild">
-                <div class="fileExplorerSecondChildBackBtn">
-                    <i class="fa-solid fa-arrow-left"></i>
-                </div>
-                <div class="fileExplorerSecondChildLeft">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-                <div class="fileExplorerSecondChildUpBtn">
-                    <i class="fa-solid fa-arrow-up"></i>
-                </div>
-                <div class="fileExplorerSecondChildRefreshBtn">
-                    <i class="fa-solid fa-circle-notch"></i>
-                </div>
-                <div class="FileExplorerSecondChildHomeBtn">
-                    <i class="fa-solid fa-house"></i>
-                    <i class="fa-solid fa-greater-than"></i>
-                    <p>Home</p>
-                    <i class="fa-solid fa-greater-than"></i>
-
-                </div>
-                <div class="fileExplorerSecondChildSearchBtn">
-                    <i class="fa-solid fa-magnifying-glass"></i>    
-                    <input type="text" placeholder="Search...">
-                </div>
-            </div>
-            <div class="fileExplorerLeftChild">
-                <div class="fileExplorerLeftChildQuickAccess">
-                    <h3>Quick Access</h3>
-                    <ul>
-                        <li><img src="home.png" alt="">Home</li>
-                        <li><img src="gallary.png" alt="">Gallery</li>
-                        <li><img src="cloud.png" alt="">One Drive</li>
-                        <li><img src="desktop.png" alt="">Desktop</li>
-                        <li><img src="download.png" alt="">Downloads</li>
-                        <li><img src="music.png" alt="">Music</li>
-                        <li><img src="videos.png" alt="">Videos</li>
-                        <li><img src="localDiskD.png" alt="">Local disk D</li>
-                    </ul>
-                    
-                </div>
-            </div>
-        </div>  
-        <div class="calculator">
-            <div class="calculatorTopBar"></div>
-            <div class="calculatorApp">
-                <button class="calculatorOperators"><h2>AC</h2></button>
-                <button class="calculatorOperators"><h2>DEL</h2></button>
-                <button class="calculatorOperators"><h2>%</h2></button>
-                <button class="calculatorOperators"><h2>/</h2></button>
-                <button class="calculatorDigit"><h2>7</h2></button>
-                <button class="calculatorDigit"><h2>8</h2></button>
-                <button class="calculatorDigit"><h2>9</h2></button>
-                <button class="calculatorOperators"><h2>+</h2></button>
-                <button class="calculatorDigit"><h2>4</h2></button>
-                <button class="calculatorDigit"><h2>5</h2></button>
-                <button class="calculatorDigit"><h2>6</h2></button>
-                <button class="calculatorOperators"><h2>-</h2></button>
-                <button class="calculatorDigit"><h2>3</h2></button>
-                <button class="calculatorDigit"><h2>2</h2></button>
-                <button class="calculatorOperators"><h2>1</h2></button>
-                <button class="calculatorOperators"><h2>x</h2></button>
-                <button class="calculatorDigit"><h2>0</h2></button>
-                <button class="calculatorOperators"><h2>.</h2></button>
-                <button class="calculatorOperators"><h2>+/-</h2></button>
-                <button class="calculatorOperators"><h2>=</h2></button>
-            </div>
-        </div>
-    
-
-        <div class="MicrosoftStore">
-            <div class="microsoftStoreLeft">
-                <i class="fa-solid fa-house"></i>
-            </div>
-            <div class="microsoftStoreright">
-             
-            <div class="microsoftStoreSearchBar">
-                <input type="text" name="" placeholder="search for apps, settings ">
-            </div>
-            <div class="microSoftStoreMid">
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                 <img src="https://wallpapercave.com/wp/wp4892943.jpg" alt="">
-                                 </div>
-                                <div class="swiper-slide">
-                                    <img src="https://cdn.europosters.eu/image/hp/106405.jpg" alt=""></div>
-                                <div class="swiper-slide">
-                                    <img src="https://images.ctfassets.net/vfkpgemp7ek3/3830973376/fdc92f674131936411134d6bb22ecdc0/number-one-apps.jpg" alt=""></div>
-                                <div class="swiper-slide">
-                                    <img src="https://rankuhigher.in/blog/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-30-at-16.06.33_e166229a.jpg" alt=""></div>
-                                <div class="swiper-slide">
-                                    <img src="https://d1735p3aqhycef.cloudfront.net/topview_blog/thumbnail_f4c32bd2cd2fbb58ca87c243aba7b586.jpg" alt="">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="https://www.eitbiz.com/blog/wp-content/uploads/2025/05/Smart-TV-App-Development.jpg" alt="">
-                            </div>
-                    </div>
-                         <div class="swiper-pagination"></div>
-                </div>
-                <div class="microsoftStoreLast">
-                            <ul>
-                                    <li><img src="instagram.png" alt="">
-                                        <div class="AppName-DownloadBtn">
-                                                 <h3>Instagram</h3>
-                                                 <button>Get</button>
-                                        </div>
-                                    
-                                    </li>
-                                    <li><img src="whatsapp.png" alt="">
-                                        <div class="AppName-DownloadBtn">
-                                                 <h3>Whatsapp</h3>
-                                                 <button>Get</button>
-                                        </div>
-                                    
-                                    </li>
-                                    <li><img src="calculator.png" alt="">
-                                        <div class="AppName-DownloadBtn">
-                                                 <h3>Calculator</h3>
-                                                 <button>Downloaded</button>
-                                        </div>
-                                    
-                                    </li>
-                                    <li><img src="firewall.png" alt="">
-                                        <div class="AppName-DownloadBtn">
-                                                 <h3>Firewall</h3>
-                                                 <button>Get</button>
-                                        </div>
-                                    
-                                    </li>
-                                    <li><img src="wallpaper.png" alt="">
-                                        <div class="AppName-DownloadBtn">
-                                                 <h3>Wallpaper</h3>
-                                                 <button>Get</button>
-                                        </div>
-                                    
-                                    </li>
-                                    <li><img src="chatgpt.png" alt="">
-                                        <div class="AppName-DownloadBtn">
-                                                 <h3>ChatGPT</h3>
-                                                 <button>Get</button>
-                                        </div>
-                                    
-                                    </li>
-                                    <li><img src="deepseek.png" alt="">
-                                        <div class="AppName-DownloadBtn">
-                                                 <h3>Deepseek</h3>
-                                                 <button>Get</button>
-                                        </div>
-                                    
-                                    </li>
-                                    <li><img src="instagram.png" alt="">
-                                        <div class="AppName-DownloadBtn">
-                                                 <h3>Instagram</h3>
-                                                 <button>Get</button>
-                                        </div>
-                                    
-                                    </li>
-                                    <li><img src="guessthwnumber.png" alt="">
-                                        <div class="AppName-DownloadBtn">
-                                                 <h3>Guess the number</h3>
-                                                 <button>Get</button>
-                                        </div>
-                                    
-                                    </li>
-                                    <li><img src="RAM booster.png" alt="">
-                                        <div class="AppName-DownloadBtn">
-                                                 <h3>RAM booster</h3>
-                                                 <button>Get</button>
-                                        </div>
-                                    
-                                    </li>
-                                    <li><img src="spotify.png" alt="">
-                                        <div class="AppName-DownloadBtn">
-                                                 <h3>Spotify</h3>
-                                                 <button>Get</button>
-                                        </div>
-                                    
-                                    </li>
-                                    <li><img src="todo.png" alt="">
-                                        <div class="AppName-DownloadBtn">
-                                                 <h3>Todo app</h3>
-                                                 <button>Get</button>
-                                        </div>
-                                    
-                                    </li>
-                                        
-                                       
-                                   
-                    
-                        </ul>
-                </div>
-           
-            </div>
-
-        </div>
-        </div>
-
-        <div class="settingMenu">
-            <div class="settingClose">
-                   <h3>Settings</h3>  
-
-                <div class="settingMinimize">
-                    <i class="fa-solid fa-minus"></i>
-                </div>
-
-                <div class="settingMinimize">
-                    <i class="fa-solid fa-expand"></i>
-                </div>
-
-                <div class="settingMinimize">
-                    <i class="fa-solid fa-xmark"></i>
-                </div>
-            </div>
-            <div class="setting">
-                
-                <div class="settingTopBar">
-                    <i class="fa-solid fa-circle-user"></i>
-                    <p>kajal200416@gmail.com</p>
-                </div>
-
-                <div class="searchBarSetting">
-                 <input type="text" name="" placeholder="search for apps, settings ">
-                </div>
-
-                <div class="settingList">
-                    <ul>
-                    <li><img src="home.png" alt="">Home</li>
-                    <li><img src="bluetooth.png" alt="">Bluetooth</li>
-                    <li><img src="system.png" alt="">System</li>
-                    <li><img src="privacy.png" alt="">Privacy and security</li>
-                    <li><img src="game.png" alt="">Games</li>
-                    <li><img src="windowsUpdate.png" alt="">Windows update</li>
-                    <li><img src="acccessbility.png" alt="">Accessibility</li>
-                  
-                    </ul>
-                </div>
-        
-             </div>  
-                <div class="settingRht">
-                    <div id="settingTopRight1">
-                        <div class="section1" id="settingTopRightChildLft">
-                            <img src="wallapepr.png" alt="">
-                            <h3>DESKTOP-9105BB <br><span>Latitude E6430</span></h3>
-                        </div>
-
-                        <div class="section1" id="settingTopRightChildRht">
-                            <div class="right1stBox">
-                                <i class="fa-solid fa-wifi" style="color: rgb(0, 128, 255);"></i>
-                                    <h3>Andriod_Ap432 <span>Connected Secured</span></h3>
-                                </div>
-                                <div class="right2ndBox">
-                                    <i class="fa-solid fa-circle-notch" style="color: rgb(0, 17, 255)"></i>
-                                <h3>windows update <br> <span>Last Check 7hour</span></h3>
-                            </div>
-                        
-                        </div>
-                    </div>
-
-
-                    <div class="section2">
-                         <div class="recommendedSetting">
-                            <h1>Recommanded settings</h1>
-                            <h5>recent and commonly used setting</h5>
-                         </div>
-                         <div class="recommendedSettingMore">
-                            <div class="both">
-                                 <i class="fa-solid fa-volume-high"> </i>
-                            <p>Sound</p>
-
-                            </div>
-                            <div class="both2">
-                            <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                        </div>
-                         <div class="recommendedSettingMore">
-                            <div class="both">
-                                <i class="fa-solid fa-list-ul"></i>
-                                <p>Installed apps</p>
-
-                            </div>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                         <div class="recommendedSettingMore">
-                            <div class="both">
-                           <i class="fa-solid fa-print"></i>
-                            <p>Printers and scanner</p>
-
-                            </div>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                           
-                    </div>
-
-                    <div class="section2 part2">
-                        <div class="section2sImg">
-                            <img src="microsoft.png" alt="">
-                             </div>
-                            <h2>Try Microsoft 365</h2>
-                            <p>Experience desktop versions of apps like word, powerpoint,excel and more <br> with AI-powered features,secured cloud storage for photos and files, and advanced security. </p>
-                             <button>Try For Free</button>
-                       
-                    </div>
-                    <div class="section2 ">
-                         <div class="recommendedSetting">
-                            <h1>Bluetooth devices</h1>
-                            <h5>manage, add and remove devices</h5>
-                         </div>
-                         <div class="recommendedSettingMore">
-                            <div class="both">
-                                <i class="fa-brands fa-bluetooth-b"></i>
-                            <p>Bluetooth</p>
-
-                            </div>
-                            <div class="both2">
-                            <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                        </div>
-                        <div class="recommendedSettingMore">
-                            <div class="both">
-                            <i class="fa-solid fa-headphones-simple"></i>
-                            <p>Airdopes</p>
-
-
-                            </div>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                        <div class="recommendedSettingMore">
-                            <div class="both" id="viewDevices">
-                            
-                            <h4>View all devices</h4>
-                            </div>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                           
-                    </div>
-
-                    <div class="section2 part2">
-                        <div class="section2sImg " id="cloud">
-                            <img src="cloud.png" alt="">
-                             </div>
-                            <h2>Cloud storage</h2>
-                            <p>With available storage you can backup files or send and receive email on Outlook </p>
-                            <h4>Manage cloud storage</h4>
-                            
-                             
-                       
-                    </div>
-                    <div class="section2 " id="diffWallpaper">
-                         <div class="recommendedSetting" id="Personalise">
-                            <h1>Personalise your device</h1>
-                            <h5>recent and commonly used setting</h5>
-                                <div class="recommendedSettingMore">
-                            <div class="both " id="collectionimg">
-                                <!-- <img src="batteryimg.png" alt=""> -->
-                                <img src="wallapepr.png" alt="">
-                                <img src="wallapepr.png" alt="">
-                                <img src="wallapepr.png" alt="">
-                                <img src="wallapepr.png" alt="">
-                              
-                            </div>
-                            
-                         </div>
-                     
-                            
-                        </div>
-                            <div class="Secondlastchild">
-                                <i class="fa-solid fa-palette"></i> <p>colour mode</p>
-                                
-                            </div>
-                            <div class="lastchild">
-                                <h3>Browse more background, colours and themes</h3>
-                            </div>
-                     
-                    </div>
-
-                    <div class="section2 part2">
-                        <div class="section2sImg">
-                            <img src="security.png" alt="">
-                             </div>
-                            <h2>Never loose access to your device</h2>
-                            <p>Add a recovery phonr number to make sure you can always get in into your account </p>
-                             <button>Add now</button>
-                       
-                    </div>
-              
-                </div>
-        </div>
-
-
-        <div class="windowsbtn">
-            <div class="searchBar">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" name="" placeholder="search for apps, settings, and document ">
-                
-            </div>
-            <div class="iconsList">
-                <ul>
-                  <li><img src="edge.png" alt=""></li>
-                  <li><img src="chrome.png" alt=""></li>
-                  <li><img src="calculator.png" alt=""></li>
-                  <li><img src="file.png" alt=""></li>
-                  <li><img src="windowsFifthimg.png" alt=""></li>
-                  <li><img src="windowsSixthImg.png" alt=""></li>
-                  <li><img src="windowsSeventhImg.png" alt=""></li>
-                  <li><img src="windowsEifhthImg.png" alt=""></li>
-               
-                </ul>
-            </div>
-
-            <div class="powerOff">
-
-                <i class="fa-solid fa-circle-user"></i>
-                <i class="fa-solid fa-power-off"></i>
-            </div>
-        </div>
-        <div class="batteryDisplay">
-            <div class="batteryTop">
-                <i class="fa-solid fa-battery-full"></i>
-                
-                <h1>100%</h1>
-                <p>5 Hours 25  <br> Minutes Remaning</p>
-                <input type="range">
-            </div>
-        </div>
-      <div class="taskbar">
-        <div class="icons">
-            <div class="Ticon1 windows" id="1">
-                <img src="window.png" alt="windows">
-            </div>
-            <div class="Ticon1" id="2">
-                <a href="https://www.google.com/" target="_blank">
-                <img src="chrome.png" alt="windows">
-                </a>
-            </div>
-            <div class="Ticon1" id="3">
-                <img src="notepad.png" alt="windows">
-            </div>
-            <div class="Ticon1 settingBtn" id="4">
-                <img src="setting1.png" alt="windows">
-            </div>
-
-            <div class="Ticon1" id="5">
-                <img src="file.png" alt="windows">
-            </div>
-            <div class="Ticon1 microsoftBtn" id="5">
-                <img src="windowsFifthimg.png" alt="windows">
-            </div>
-            <div class="Ticon1 calculatorBtn" id="5">
-                <img src="calculator.png" alt="windows">
-            </div>
-            <div class="rightmenu">
-                <div class="Ricon1 arrow" id="1">
-                    <img src="upa.png" alt="">
-                </div>
-                <div class="Ricon1" id="2">
-                   <i class="fa-solid fa-volume-high"></i>
-                </div>
-                <div class="Ricon1 batterybtn" id="3">
-                    <i class="fa-solid fa-battery-full"></i>
-                </div>
-                <div class="Ricon1" id="4">
-                    <i class="fa-solid fa-sun"></i>
-                </div>
-                <div class="Ricon1 date">
-                   
-                </div>
-            </div>
-        </div>
+    <div class="LoginName">
+      <div class="LoginForm">
+      <img src="./assets/user.png" alt="">
+      <input type="text" placeholder="Enter Your Name Here">
+      <button class="LoginBtn">Let's Begin</button>
       </div>
-      <div class="Roptions">
-        <div class="Rtop">
-            <div class="Rtopchild" id="1">
-                <div class="wifi">
-                    <i class="fa-solid fa-wifi"></i>
-                </div>
-                <div class="wifimore">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-            </div>
-            <div class="Rtopchild" id="1">
-                <div class="wifi">
-                    <i class="fa-brands fa-bluetooth-b"></i>
-                </div>
-                <div class="wifimore">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-            </div>
-            <div class="Rtopchild" id="openCamera">
-                <div class="wifi">
-                   <i class="fa-solid fa-camera"></i>
-                </div>
-                <div class="wifimore">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-            </div>
-            <div class="Rtopchild" id="1">
-                <div class="wifi">
-                    <i class="fa-solid fa-moon"></i>
-                </div>
-                <div class="wifimore">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-            </div>
-            <div class="Rtopchild" id="1">
-                <div class="wifi">
-                    <i class="fa-solid fa-universal-access"></i>
-                </div>
-                <div class="wifimore">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-            </div>
-            <div class="Rtopchild" id="1">
-                <div class="wifi">
-                  <i class="fa-solid fa-music"></i>
-                </div>
-                <div class="wifimore">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-            </div>
-            <div class="Rtopchild" id="1">
-                <div class="wifi aeroplain">
-                    <div >
-                     <i class="fa-solid fa-plane"></i>
-                    </div>
-                </div>
-                <!-- <div class="wifimore">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div> -->
-            </div>
-            <div class="Rtopchild" id="1">
-                <div class="wifi battery">
-                   <i class="fa-solid fa-battery-half"></i>
-                </div>
-                <!-- <div class="wifimore">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div> -->
-            </div>
-            <div class="Rtopchild" id="1">
-                <div class="wifi">
-                    <i class="fa-solid fa-user"></i>
-                </div>
-                <div class="wifimore">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-            </div>
-           
-
+    </div>
+   
+      <div class="rghtClick">
+        <ul>
+          <li>View</li>
+          <li>Refresh</li>
+          <li>Create Folder</li>
+          <li> Create Files</li>
+          <li>Dark Mode</li>
+          
+          <li>Wallpaper</li>
+          <li>Settings</li>
+        </ul>
+      </div>
+      <div class="wallpaperMenu">
+        <div class="wallpaperMenuCut">
+          <i class="fa-solid fa-xmark"></i>
         </div>
-        <div class="Rmiddle">
-            <div class="brightness">
-               <i class="fa-regular fa-sun"></i>
-                <input type= "range">
-            </div>
+        <h2>Set Wallpaper</h2>
 
-            <div class="volume">
-                <i class="fa-solid fa-volume-high"></i>
-                <input type= "range">
-            </div>
-                 <div class="Rend">
-                  <i class="fa-solid fa-battery-full"></i>
-                  <i class="fa-solid fa-gear"></i>
-                 </div>
-           
+        <div class="Url">
+          <h3>Url : </h3>
+          <input class="ImageUrl" type="text" placeholder="Enter Image Url Here">
+        </div>
+        <button class="SetWallpaper">Done</button>
+      </div>
+    <div class="calculator">
+         <div class="calcMinMax"><i class="fa-solid fa-xmark"></i></div>
+        <input type="text" readonly value="0">
+        
+      <ul>
+        <li>
+          <button class="orange">AC</button>
+        </li>
+        <li>
+          <button class="orange">DEL</button>
+        </li>
+        <li>
+          <button class="orange">%</button>
+        </li>
+        <li>
+          <button class="orange">/</button>
+        </li>
+        <li>
+          <button>7</button>
+        </li>
+        <li>
+          <button>8</button>
+        </li>
+        <li>
+          <button>9</button>
+        </li>
+        <li>
+          <button class="orange">+</button>
+        </li>
+        <li>
+          <button>4</button>
+        </li>
+        <li>
+          <button>5</button>
+        </li>
+        <li>
+          <button>6</button>
+        </li>
+        <li>
+          <button class="orange">-</button>
+        </li>
+        <li>
+          <button>3</button>
+        </li>
+        <li>
+          <button>2</button>
+        </li>
+        <li>
+          <button>1</button>
+        </li>
+        <li>
+          <button class="orange">*</button>
+        </li>
+        <li>
+          <button>0</button>
+        </li>
+        <li>
+          <button>.</button>
+        </li>
+        <li  class="eqalBtnul">
+          <button class="equal">=</button>
+        </li>
+      </ul>
+    </div>
+    <div class="fileManager">
+        <div class="fileManagerTopBar">
+           <h5>File Explorer</h5>
+           <div class="cutMinMaxFile">
+              <i class="fa-solid fa-minus"></i>
+          <i class="fa-solid fa-expand"></i>
+          <i class="fa-solid fa-xmark "></i>
            </div>
         </div>
-       
-       
+        <div class="fileManagerTopBarPart2">
+           
+           <div class="lftRghtArrow">
+            <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+           </div>
+          
+            <input type="text" placeholder="Search Quick Access">
+           
+        </div>
+        <div class="midFileManager">
+          <div class="midLft">
+            <ul>
+              <li>
+                <img src="./assets/laptop.png" alt="">
+                 <p>Desktop</p>
+              </li>
+              <li>
+                <img src="./assets/laptop.png" alt="">
+                 <p>Download</p>
+              </li>
+              <li>
+                <img src="./assets/laptop.png" alt="">
+                 <p>Document</p>
+              </li>
+              <li>
+                <img src="./assets/laptop.png" alt="">
+                 <p>Pictures</p>
+              </li>
+              <li>
+                <img src="./assets/laptop.png" alt="">
+                 <p>Music</p>
+              </li>
+              <li>
+                <img src="./assets/laptop.png" alt="">
+                 <p>One Drive</p>
+              </li>
+              <li>
+                <img src="./assets/laptop.png" alt="">
+                 <p>This PC</p>
+              </li>
+              <li>
+                <img src="./assets/laptop.png" alt="">
+                 <p>Network</p>
+              </li>
+             
+            </ul>
+          </div>
+          <div class="midRht"></div>
+        </div>
+    </div>
+    <h2 class="w">Loading...</h2>
+    <div class="allscreenApp">
+
+        <div class="app1  calcbtn">
+              <img src="./assets/calculator-app-store-android-png-favpng-GxAjYP63RSPmyQRZtUYSMXmp1-removebg-preview.png" alt="">
+            </a>
+            <p>Calculator</p>
+          </div>
+        <div class="app1  wallaperBtn">
+              <img src="https://cdn6.aptoide.com/imgs/9/d/c/9dcc0800bfa8fb1a925c7209676e4b08_icon.png" alt="">
+            </a>
+            <p>Wallpaper</p>
+          </div>
+        <div class="app1  cameraBtn ">
+              <img src="https://www.freeiconspng.com/uploads/camera-icon-search-engine-iconfinder-11.png" alt="">
+            </a>
+            <p>Camera</p>
+          </div>
+    </div>
+    <div class="MicrosoftStore">
+      <div class="MicrosoftTopBar">
+        <img src="./assets/store.png" alt="" />
+        <div class="storeMinMaxCut">
+          <i class="fa-solid fa-minus"></i>
+          <i class="fa-solid fa-expand"></i>
+          <i class="fa-solid fa-xmark cut"></i>
+        </div>
+      </div>
+      <div class="microsoftStoreLeft">
+        <i class="fa-solid fa-house"></i>
+      </div>
+      <div class="microsoftStoreright">
+        <div class="microsoftStoreSearchBar">
+          <input type="text" placeholder="Search for apps & games" />
+        </div>
+        <div class="microSoftStoreMid">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="https://play-lh.googleusercontent.com/6uI-sjljU5U3if6rk_fWE6KEgIoazIv6jgY_KnY3PBhsx9tl2m61Qql-2Z0cfHxBTWZq=w3840-h2160-rw"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://wallpapers.com/images/hd/all-games-uv6zvofz996jmvjq.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://wallpapercat.com/w/full/7/e/6/1501835-3840x2160-desktop-4k-action-adventure-game-wallpaper-image.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://wallpapercave.com/wp/wp3587259.jpg"
+                  alt=""
+                />
+              </div>
+           
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="microSoftStoreEnd">
+          <ul>
+            <li>
+              <img
+                src="./assets/instagram-vector-logo-icon-social-media-logotype_901408-392-removebg-preview.png"
+                alt=""
+              />
+              <div class="appDonwnload">
+                <h3>Instagram</h3>
+                <button>Get</button>
+                
+              </div>
+            </li>
+            <li>
+              <img src="./assets/wp.png" alt="" />
+              <div class="appDonwnload">
+                <h3>whatsapp</h3>
+                <button>Get</button>
+              </div>
+            </li>
+            <li>
+              <img
+                src="./assets/calculator-app-store-android-png-favpng-GxAjYP63RSPmyQRZtUYSMXmp1-removebg-preview.png"
+                alt=""
+              />
+              <div class="appDonwnload">
+                <h3>Calculator</h3>
+                <button disabled style="background-color: rgb(125, 162, 98);">Downloaded</button>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/todo.png" alt="" />
+              <div class="appDonwnload">
+                <h3>Todo-App</h3>
+                <button>Get</button>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/linkedin.png" alt="" />
+              <div class="appDonwnload">
+                <h3>Linkedin</h3>
+                <button>Get</button>
+              </div>
+            </li>
+            <li>
+              <img
+                src="https://i.pinimg.com/474x/99/d9/23/99d9239aafdc5dd180eeae9bc30dcc6a.jpg"
+                alt=""
+              />
+              <div class="appDonwnload">
+                <h3>Games</h3>
+                <button>Get</button>
+              </div>
+            </li>
+            <li>
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAmVBMVEUCpn7///8AongAo3oAoHUAnHUcrYj8//8AqYIgoYFXvaHs9fMAnnOW1cP0/PsAoHYuso/j9vLw+/m85tvf9PDX8evI6uFwxaxav6SFzLnP7OXE6d/q+fa35Nmu3tDU7Oec1cZmxKt5yLJGt5korYuO1MGOzry/4NhAt5eAzbiz2s+v3M97wq50ybKSy7xwv6gAl2c8rI9buKAqxYvUAAANYklEQVR4nO1da3ejug4lkg9wM4TmTd6FhLZ0Mjlz7v3/P+6GtMHyi0AnTtKzvL90rYYEbyRLsiQbz3NwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwuCUQgOHpD8C9x3J1IEPf3242P5/j+PnnfpPmfsj+RTTB262fOxLi5dYvRfr9gVGRrmR6nyRHs+jbCxJZMg70/E5YzfF7c2SFop0yhvNvrKvg7y/xK7HoflcxRknchOARafgtxYhpQ35HjP3vJ0bEZXOCR7OasXuPuCWgP1ZYDCbLX0mWJb9+Tsaq/h6+F0XYDcXxB8tkFzEGWIKxqD8bySRLiojAShyvuzeFemBfJBikx/BFHDOycDsQL0r+KZLk70mJv38nRXTkeafxN4AQxAznodaOgDcTVDlYCbHBapUmTw9KUjQyI7OdRHxR5qOAeL97xJjnibqJYb2RZF3VIol4ftdrwB2BXapq/QvDY/jjAsXOahs9lq6GRCrT/oWxsdnkEsEjJrNHciVAdHTg1ROEfNGAX4n948R1WFAVrR0WhL2G/DqPFNfBqBpUXDsHEZNhDSMFwYPEdVSEhzqC0U43AePVz02appv9SrNsPkQ3o1EDeKsGlNY8c8jfFArDzTYMQ1Zm4oCFoT9fypekDzAXsahGFefGqwBeFX7jA0o5RoBwLiV4tvdXVNhUo3kxjQa9ZCDR6yxm2tAF4CAGBMmdKSL8U419EBouYuoE/HEwehXwxLhudkeLiixPXieV9r3ohwL9jcwvTmsdgegzV3YG3wCAyRtd8AVaESLOlQk46l/QPGQ0zp3aGP1lsDCVosulRiwIOyU1POk2yCUyGhnM76Cn4KeKZDRKCv2poqDbZmv5aE6+ZLbRtsB0ScO+fBWE6mPYNI7EqBTfbmxPoa+LTWRLiviuhGjLvIW+0bmY3dTxw0Gb9V2Kzxl2SnJ/0DLMBP4gJ7eM3p4MWd81Hf4xRJM/H25bL9zzSsmD3c2EiKFpefc/MgbcKWLe6ydgmWk03gz4VFzeSogYGnMsXcpQ1tDpTi8/1t3+OtQYn+pBBYodswSZ4HJbOUXKMBSvWmX6DCHLlx/6a6IIPH7r3cYnPgmzK5juorB6ypThf+hlcWrKnfbO82yRG1TVr2bixAYfdUxCCmI8i9DzK49gYrj2tRYUI8GZGK5iPKT17XASABkluPdKyfgXZDgwlEKjnWSx4lddowbuqgtu4RJz+tA/60ZcjXQMhwe9pQRfU4cb6FaCURXWbuxPRPhJhnMeTS3DkT49DzDXV4o1IQ+rZr79iQgJUakqOqll6OsEiJiYWxmUsBV/nz8a2iJWISTLIK5PdQy1PowVynKDYigtPXi9ILBtaohrotmhWhmqDMHfk+XGIg/V/Ia0fGTV5LdtakJuZmgE6lf/bcAQn17IBFwlUP5LnZPLgtwAKtWpzcX+OYgIx/T/LRgiZERgce8zDoD+Rl5FBiSNwxm+22WIfBYm9E7NGbI+9RB74uGZWqwZzp8+fw4qs2SXIXJDuhSmQ1OG0KfrfSkQRy9RAvpJ92M1wTPqdhky/pSLLzBE2JLZNjwogThgT0l4TE/eESrudhny0ELKqDViCAXNeE+07cLHMEfmGL8fA0OoLJxVS4NZdVtpsd2AIeSiBxzs9MmMqFA8x9Hccm8xs+kteG0ilvJNFxlCqJZk1qF+ucG2iudY/Pf8L7tr4Kh6umtJVS4wRE9NuJXPKTVE5Jr84xl2ozZeQJOX43UMA5/RhFuwJ3Gfcdmv5pDP37BJkFR5ZVWpZTgbkRGuC+b3iBYuTKkbbaVY1Z6rggf4A/mjWi0l+MiVsj7lPDKs/pl2cWWobF0H3NBM5TE1Y/hj7n2OD7pEQsMXQwbHT1WOVmsX7A8Z7gmRo/Mntmdg6AtixUj8CcuLJ7Y+32f5BYaTQirW+xsioam+LwiZ2MTYeX66NisKzvBvWasuMlxlarVQNJhrvarKpVVjUvUa4AxfWzKMU083sONCiniOeKsvmYoPIsgsUuQM9+0Y7vXBi1emg9+JhCb6qhQCLZMOLdoazrCdpamtpoFPJ9pPfWWRbck1FqszX7Wl9ZEkf24nJexppyPLiFWy5xK5P1zIj/FPGEoO4biQ0ExHIM25Q2seg6f0lL6uKzIsl/4atQaiqKktIX4xLr3E8CNvM6Xpm7Wme5PU8+25fb+y7fJT/HOGLxFN0sQvaiUg5IGeNSGyyjE9S5+0zAgLP/qhpT0QC22rg+wdSQEqtiVE4pfkj6rnfyDd9W0YlgbyGMgRVZ0W0nSMuNW1ZU5xV4lK6sAiJv+ZD6wtwzLbSOxOIIdOvNJsre0kqkS1klSoz/1VsDmHaO0ZHkPtjCTkpLwayRPZytaQ/QaSELEgdmL4/uHS2s3D8z1IWVFaaRNjbk1NeaZGzghhSFuIJrvSTnyJYZl3rChKFgUrc6qs364F4PPtVb4H7KhLS49u+4sMvb+q3hWJIbxW0rVlTemWA6UDC6FLk9optPGHjRh6/erXi6vw0QD5Wm2sNgMjvpIIefDr2jL0wuoRWiuUYpev56Yakw2h0s19TYasmgjWwhq696fzqvNKUVdOdF5RS7kxX9syNYLn66Q6iuhlYlP3FRny5Y1mjlwLjG6DUFJSJwAIdQclwhSu9QdfYriyx5A4pSMm+iwg5HQ6vhkKabQG05bh0CZDn/qEVaYPEYUtooG+LxEwqWTdlqFc37sqYCdkMA0bQxB6ZCfGKlF39LKMRHqPJEM5eXQMtfXnW4FHA7mxpKpSD/iDMZRTK8YyoNDbtSbdaiDvEmrL0Lh/7Crw1ZLQotCKEaMZnbS9z3UVekohu6E//HX+xO7uEr+jganJOaQtXoNyOqJun2zbmGZjkyHoN2IP5/q9hODRE5Umu0gomb3lbTz+U9XQY7WthpnOgBrM9NNR3DhD9wEfvxG1YcgzXlb3lmD1INUGJr1v1/VznaSO2Cpq42lha2mMD5zDzmD2IhsMg28v+2kU8/RRMWy1AubN0FYrpXgeaxyyQulFX/02TMdc9KKLT3G3Wj1V37a3eDoN4Kycw7/Kdb26OU1blUd4p8+hattrwZD8QtfmNPTyapjlqNB7VXbAavZvCdYm2HBdbjMPqxsNrHpDnAkMyzmmGtdUrDswoW1vTSPZ5jIkKXe7SupV9YNhleNU+wnHpAwISBtjnruCAJrLkCcZre9DPN8o/uv8H/S6iqqeQ218eiGfDeUCaGOGpGwxtb1xhrtd/j/EnmY7JZMa1DTOpKmWwoH/jPWtpLxfl94JfNEdlAJLvZxuItrL5SSvMUNSFbIvQq9aLkjtO2qarUOPIxhrg7pmWoohWaNYFyEYu07QOyiHl1TyfNF2DXnRtAFDJAVg24bUo0nLsZKjOZpNbXtvoO+KKrPkncsMBYI2s2znUZl7MrzSc4xUjko99/OXeERUxxByGrff4hgXvvlJexhHVEibXwYz/cFyNMlRw1AI92qPaLoaeGZ/YlA9Oh0NbU5Sv7qJIYrh0O23Oht2PwCvl24MXZXRXGjfT/UMWbEWdN5iMl8Ar10sjHvoPwK5Z+MZA9KS5EXL8H+Six1o96NaAG+sMW9hQZj9TjL9hgqWy7F6TD8uTLstxrciSDcD1yy2TYdd6DwKTSwJR2hSTG5G0POeuCWZt7RtGGmONBN02cTQUAWyA5pQbHeuuuZgVnmbHm7lK07o3fbcPd7E11m10B2xr+uEeC1HO0x3Hvjg1mdi07VM4xIC4FwZ+VLtAUf17Jsgvf2hwrROumnUZYZRpijoqqv5ai5fJW7rvhWQmvRRA0Vl8iEfZXeYLvEoFw2CjX+fU8x5f1KnwTmxGg8RbAxn7lFJxxPDkeA3AV3urmq3HOh2WI4MmkcaZcdp1r/rW3dC4TxBQ/zplR2V6pmCA80uoQ/w8mvcv/c7TKAr5J5W77k21x3tFOv/w7De94TOuZsd7GUGzMS5FW8KqaKPgJlq+83iFrb8W93E1RCQSRnEYNLLwxA+TgT2Qi/ZqDuc5W164i/yiPd+B5ZSQKHZox28bUrstWe6mSdgCfryiHsc5qmBJp9fB1PC7Ywn/lQeQ4Re6QjUdksj6iZgCXJq2aOIsATMjDlSEc/G9rZP0IM8b5OPaQgINXuuFZyK9rWgEgzslkBbQ84X6dC/4N3QoxWO3v1PKBeBsNP4BVGG77UUxbhn+lgSPAEhPCivORIxNdtR8ITA3NrOrT8EgL9NF1QUwUAQ7OksHd0XMROMVfzAL5xDYGGWbdPS48+TbBeJb0fqDF9zkEpsyPytGBsED0zwBET8CNvKZCLm8rJieijoK7zyTNbt4KFeLXMZmhOHg/Fk8Ss54vdI8xq2R1ZRE1oEPUc9NpQBHhqat3YYMb30lqjHBMsMr5SVERhaVB8fmkSwDuZ9Gd8AsFNOmpMxrl05Pj4QunUhTzDePn1rfiUwKnqGo9xX6933f8XzCRDuNs+yto43Xe9766cAZJ7vz3rp/m28Wu7T3rvv/5vonVFGdVhG6qDfTuTg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODgYA3/Bz+owKjeQUlQAAAAAElFTkSuQmCC"
+                alt=""
+              />
+              <div class="appDonwnload">
+                <h3>Chat-Gpt</h3>
+                <button>Get</button>
+              </div>
+            </li>
+            <li>
+              <img
+                src="https://intrinsecsecurity.com/wp-content/uploads/2025/01/DeepseekLogo.png"
+                alt=""
+              />
+              <div class="appDonwnload">
+                <h3>Deepseek</h3>
+                <button>Get</button>
+              </div>
+            </li>
+            <li>
+              <img
+                src="https://cdn6.aptoide.com/imgs/9/d/c/9dcc0800bfa8fb1a925c7209676e4b08_icon.png"
+                alt=""
+              />
+              <div class="appDonwnload">
+                <h3>Wallpapers</h3>
+                <button disabled style="background-color: rgb(125, 162, 98);">Downloaded</button>
+              </div>
+            </li>
+            <li>
+              <img
+                src="https://www.diagnosticsincontrol.com/wp-content/uploads/2023/11/Cyber-Security-Logo-PNG.png"
+                alt=""
+              />
+              <div class="appDonwnload">
+                <h3>Firewall</h3>
+                <button>Get</button>
+              </div>
+            </li>
+            <li>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/2048px-Spotify_App_Logo.svg.png"
+                alt=""
+              />
+              <div class="appDonwnload">
+                <h3>Spotify</h3>
+                <button>Get</button>
+              </div>
+            </li>
+            <li>
+              <img
+                src="https://www.freeiconspng.com/uploads/ram-booster-png-29.png"
+                alt=""
+              />
+              <div class="appDonwnload">
+                <h3>RAM Booster</h3>
+                <button>Get</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="fullSetting">
+      <div class="fullSettingTop">
+        <h5>Setting</h5>
+        <div class="settingMMC">
+          <i class="fa-solid fa-minus"></i>
+          <i class="fa-solid fa-expand"></i>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+      <div class="settinglft">
+        <div class="user">
+          <img src="./assets/user.png" alt="" />
+          <h3>
+            Rohit Bhardwaj <br />
+            rohitbhardwaj121001@gmail.com
+          </h3>
+        </div>
+        <div class="settingSearch">
+          <input
+            class="settingInputSearchBar"
+            type="text"
+            placeholder="Search here..."
+          />
+          <ul>
+            <li class="home">
+              <img src="/assets/images-removebg-preview (1).png" alt="" />
+              <h5>Home</h5>
+            </li>
+            <li>
+              <img src="/assets/laptop.png" alt="" />
+              <h5>System</h5>
+            </li>
+            <li>
+              <img src="/assets/blutooth.png" alt="" />
+              <h5>Blutooth</h5>
+            </li>
+            <li>
+              <img
+                src="/assets/Windows_Update_logo-removebg-preview.png"
+                alt=""
+              />
+              <h5>Window Update</h5>
+            </li>
+            <li>
+              <img
+                src="/assets/shield-check-mark-split_78370-6539-removebg-preview.png"
+                alt=""
+              />
+              <h5>Privacy & Security</h5>
+            </li>
+            <li>
+              <img src="/assets/games.png" alt="" />
+              <h5>Games</h5>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="settingRht">
+        <div class="settingRightChild"></div>
+        <div class="settingRightChild"></div>
+        <div class="settingRightChild"></div>
+        <div class="settingRightChild"></div>
+        <div class="settingRightChild"></div>
+        <div class="settingRightChild"></div>
+        <div class="settingRightChild"></div>
+        <div class="settingRightChild"></div>
+      </div>
+    </div>
+    <div class="batteryDiv">
+      <div class="batteryUpper">
+        <i class="fa-solid fa-battery-three-quarters"></i>
+        <h3>71%</h3>
+        <p>5 Hour 32 minutes remaining</p>
+      </div>
+      <div class="batteryMid">
+        <input type="range" />
+        <div class="rangeSpace">
+          <p>|</p>
+          <p>|</p>
+          <p>|</p>
+          <p>|</p>
+        </div>
+      </div>
+      <div class="batteryLower">
+        <p>
+          Best Battery <br />
+          Life
+        </p>
+        <p>
+          Best <br />
+          Performance
+        </p>
+      </div>
+    </div>
+    <div class="camera">
+      <div class="cameraTopBar">
+        <div class="cameraTopBarLft">
+          <img src="./assets/camera.png" alt="" />
+          <h6>Camera</h6>
+        </div>
+        <div class="cameraTopBarRht">
+          <i class="fa-solid fa-minus"></i>
+          <i class="fa-solid fa-expand"></i>
+          <i class="fa-solid fa-xmark cameraX"></i>
+        </div>
+      </div>
+      <video id="cameraFeed" autoplay ></video>
+    </div>
+    <div class="windows">
+      <div class="windowsInput">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search here" />
+      </div>
+      <div class="windowsMenus">
+         
+      </div>
+    </div>
+    <div class="arrowSection">
+      <div class="arrowSectionTop">
+        <div class="arrowSectionTopChild wifi">
+          <div class="arrowSectionSplit1"><i class="fa-solid fa-wifi"></i></div>
+          <div class="arrowSectionSplit2">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="arrowSectionTopChild" data-color="#004bb5">
+          <div class="arrowSectionSplit1">
+            <i class="fa-brands fa-bluetooth-b"></i>
+          </div>
+          <div class="arrowSectionSplit2">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="arrowSectionTopChild battery" data-color="#189407">
+          <i class="fa-solid fa-battery-full"></i>
+        </div>
+        <div class="arrowSectionTopChild" data-color="#004bb5">
+          <div class="arrowSectionSplit1">
+            <i class="fa-solid fa-universal-access"></i>
+          </div>
+          <div class="arrowSectionSplit2">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="arrowSectionTopChild aeroplane">
+          <i class="fa-solid fa-plane"></i>
+        </div>
+        <div class="arrowSectionTopChild" data-color="#004bb5">
+          <i class="fa-solid fa-music"></i>
+        </div>
+        <div class="arrowSectionTopChild">
+          <div class="arrowSectionSplit1"><i class="fa-solid fa-user"></i></div>
+          <div class="arrowSectionSplit2">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="arrowSectionTopChild" data-color="#004bb5">
+          <i class="fa-solid fa-moon"></i>
+        </div>
+        <div class="arrowSectionTopChild" data-color="#004bb5" id="openCamera">
+          <i class="fa-solid fa-camera"></i>
+        </div>
+      </div>
+      <div class="arrowSectionMid">
+        <div class="brightness">
+          <i class="fa-solid fa-sun"></i>
+          <input type="range" />
+        </div>
+        <div class="volume">
+          <i class="fa-solid fa-volume-high"></i>
+          <input type="range" />
+        </div>
+      </div>
+      <div class="arrowSectionbottom">
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-gear"></i>
+      </div>
+    </div>
+    <div class="taskbar">
+      <div class="allmenuicon">
+        <div class="Ticon windowbtn" id="1">
+          <img src="./assets/wicon.png" alt="" />
+        </div>
+        <div class="Ticon" id="">
+          <img src="./assets/search.png" alt="" />
+        </div>
+        <div class="Ticon filebtn" id="3">
+          <img src="./assets/file.png" alt="" />
+        </div>
+
+        <div class="Ticon" id="openGooglebtn">
+          <a href="https://www.google.com/" target="_blank">
+            <img src="./assets/google.png" alt="" />
+          </a>
+        </div>
+
+        <div class="Ticon" id="7">
+          <img src="./assets/notes.png" alt="" />
+        </div>
+        <div class="Ticon settingbtn" id="4">
+          <img src="./assets/settings-icon-4-removebg-preview.png" alt="" />
+        </div>
+        <div class="Ticon microsoftStoreBtn" id="6">
+          <img src="./assets/store.png" alt="" />
+        </div>
+        <div class="Ticon minimizeIconsCam" id="6">
+          <img src="./assets/camera.png" alt="" />
+        </div>
+        <!-- <div class="Ticon minimizeIconsStore" id="6">
+          <img src="./assets/store.png" alt="" />
+        </div> -->
 
       </div>
-
+      <div class="allmenusetting">
+        <div class="settingicon upArrow">
+          <img src="./assets/arrowup.png" alt="" />
+        </div>
+        <div class="settingicon batterybtn">
+          <i class="fa-solid fa-battery-three-quarters"></i>
+        </div>
+        <div class="settingicon">
+          <i class="fa-solid fa-sun"></i>
+        </div>
+        <div class="settingicon time">
+          <h6 class="timee">10:00</h6>
+          <span class="date">19-6-2025</span>
+        </div>
+        <div class="settingicon">
+          <i class="fa-solid fa-message"></i>
+        </div>
+      </div>
     </div>
 
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
-  
